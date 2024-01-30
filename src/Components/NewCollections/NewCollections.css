@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 100px;
+    justify-content: center;
 }
 .newcollections h1 {
     color: #171717;
@@ -18,7 +19,9 @@
 }
 .collections {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
     gap: 30px;
+    justify-items: center;
+    justify-content: center;
 }
